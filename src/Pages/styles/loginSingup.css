@@ -1,0 +1,62 @@
+.loginSingup {
+  width: 100%;
+  height: 100vh;
+  background: #fce3fc;
+  padding-top: 20px;
+}
+.loginSingupContainer {
+  width: 480px;
+  height: 550px;
+  background-color: white;
+  margin: 10px auto;
+  padding: 40px 60px;
+  border-radius: 50px;
+}
+.loginSingupContainer h1 {
+  margin: 20px 0;
+}
+.loginSingupFields {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 10px;
+}
+.loginSingupFields input {
+  padding: 10px;
+  height: 42px;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 50px;
+  outline: none;
+}
+.loginSingupFields button {
+  margin: auto;
+  width: 360px;
+  height: 42px;
+  color: white;
+  background-color: #ff4141;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  border-radius: 50px;
+}
+
+.loginSingupLogin {
+  margin-top: 10px;
+  color: #5c5c5c;
+  font-size: 18px;
+  font-weight: 500;
+}
+.loginSingupLogin span {
+  color: #ff4141;
+  font-weight: 600;
+}
+.loginSingupAgree {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 500;
+}
